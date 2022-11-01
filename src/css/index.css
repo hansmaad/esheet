@@ -1,0 +1,51 @@
+@import './reset.css';
+@import './chart.css';
+
+#app {
+    padding: 1em;
+}
+
+
+.chart-container {
+    display: flex;
+    gap: 1em;
+    margin: 0 0 1em 0;
+}
+
+
+@media screen and (max-width: 800px){
+    .chart-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.chart {
+    flex: 1;
+}
+
+.info {
+
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+}
+
+table tr {
+
+}
+
+table tbody td, table thead th {
+    padding: 0.2em;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
